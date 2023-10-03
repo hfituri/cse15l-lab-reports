@@ -1,2 +1,2 @@
-# ***Lab Reprot 1***
+# ***Lab Report 1***
 ***
