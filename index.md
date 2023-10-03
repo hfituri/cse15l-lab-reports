@@ -1,6 +1,3 @@
-# ***Hello Wordl!***
+# ***Lab Reports***
 ***
-* 1
-* 2
-1. one
-2.
+## Lab Report 1
