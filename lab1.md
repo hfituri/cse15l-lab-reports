@@ -7,4 +7,7 @@
 ***
 ![Image](./directory.PNG)
 * For the cd command it started in the home directory. The cd command changed the directory form the home to lecture1/ when lecture1/ was passed through. There was no error.
-* For the ls command it started in the lecture1/ directory. The ls command returned the list in messages when messages/ directory was passed through.
+* For the ls command it started in the lecture1/ directory. The ls command returned the list in messages when messages/ directory was passed through. There was no error.
+* For the cat command it started in the lecture1/directory. The cat command returned messages/ saying that it was a directory. I assume this was an eror because the cat command returns what is in a file and it did not do that in this case.
+***
+!
