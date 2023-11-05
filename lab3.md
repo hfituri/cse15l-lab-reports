@@ -118,4 +118,4 @@ Six large controlled population-based studies of
 non-smoking older adults have investigated the association 
 between body mass index (BMI) and mortality, controlling
 ```
-*The -s command for less will eliminate all consecutive blank lines when it's printed. This could be useful if you want to minimize the size of the file when you are reading it.
+*The -s command for less will eliminate all consecutive blank lines when the file is printed. This could be useful if you want to minimize the size of the file when you are reading it.
