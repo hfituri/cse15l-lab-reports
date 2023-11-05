@@ -1,7 +1,7 @@
 # ***Lab Report 3***
 
 ## Part 1
--------------------
+---
 
 Failure-inducing Input
 ```
@@ -47,7 +47,7 @@ The problem with the code was that it was not storing the number that was gettin
 
 
 ## Part 2
-----------------
+---
 
 I chose less for my command and I found all the options related to it on this website:
 https://www.geeksforgeeks.org/less-command-linux-examples/#
