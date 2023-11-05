@@ -1,6 +1,6 @@
 # ***Lab Report 3***
----
-Part 1
+
+## Part 1
 -------------------
 
 Failure-inducing Input
@@ -45,8 +45,8 @@ static void reverseInPlace(int[] arr) {
 ```
 The problem with the code was that it was not storing the number that was getting changed. When the number needs to be swapped later on, the number will be the same since no value was being stored. In the fix, I store the value before it's swapped and after the value gets swapped, I swap the value at the other end of the array with the value stored.
 
----
-Part 2
+
+## Part 2
 ----------------
 
 I chose less for my command and I found all the options related to it on this website:
