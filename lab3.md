@@ -2,7 +2,7 @@
 ***
 Part 1
 -------------------
-*Failure-inducing Input
+Failure-inducing Input
 ```
 @Test 
 public void testReverseInPlace() {
@@ -11,7 +11,7 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 5,4,3 }, input1);
 	}
 ```
-* Input that doesn't induce a failure
+Input that doesn't induce a failure
 ```
 @Test 
 	public void testReverseInPlace() {
@@ -20,9 +20,11 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 3 }, input1);
 	}
 ```
-*Test results for both inputs
+Test results for both inputs
 
-*Before
+![Image](./Input.png)
+
+Before
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
@@ -30,7 +32,7 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-*After
+After
 ```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length/2; i += 1) {
@@ -40,14 +42,16 @@ static void reverseInPlace(int[] arr) {
     }
   }
 ```
-* The problem with the code was that it was not storing the number that was getting changed. When the number needs to be swapped later on, the number will be the same since no value was being stored. In the fix, I store the value before it's swapped and after the value gets swapped, I swap the value at the other end of the array with the value stored.
+The problem with the code was that it was not storing the number that was getting changed. When the number needs to be swapped later on, the number will be the same since no value was being stored. In the fix, I store the value before it's swapped and after the value gets swapped, I swap the value at the other end of the array with the value stored.
+
 ---
 Part 2
 ----------------
-*I chose less for my command and I found all the options related to it on this website:
+
+I chose less for my command and I found all the options related to it on this website:
 https://www.geeksforgeeks.org/less-command-linux-examples/#
 
-*-p
+-p
 ```
 $ less -p "hi" biomed/
 biomed/ is a directory
@@ -70,9 +74,9 @@ with moderately high BMI had little or no extra risk except
         elderly [ 9 ] .
         In older adults, risk factors may have a greater effect
 ```
-*The -p commnad takes a string and will start the file from the fist point that the string was found. The string can be part of a word and doesn't have to be an actual word in the file such as "hi" started at the word "high". This command is useful if there is a specific part of the file that talks about a specific subject and you would like to find where that is.
+The -p commnad takes a string and will start the file from the fist point that the string was found. The string can be part of a word and doesn't have to be an actual word in the file such as "hi" started at the word "high". This command is useful if there is a specific part of the file that talks about a specific subject and you would like to find where that is.
 
-*-E
+-E
 ```
 $ less -E 911report/chapter-1.txt
 "WE HAVE SOME PLANES"
@@ -87,7 +91,7 @@ INSIDE THE FOUR FLIGHTS
 $ less -E 911report/
 911report/ is a directory
 ```
-*The -E command for less exits when the entire file is read. This command can be useful if you just want to proofread a file once or if you were going to just read/skim over a long file.
+The -E command for less exits when the entire file is read. This command can be useful if you just want to proofread a file once or if you were going to just read/skim over a long file.
 
 *-i
 ```
@@ -101,9 +105,9 @@ less -i 911report/Chapter-1.txt
     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the 
 World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.  
 ```
-*The -i command ignores casing when looking at files. This could be good if you were trying to find a file name but you don't know the exact casing on the file.
+The -i command ignores casing when looking at files. This could be good if you were trying to find a file name but you don't know the exact casing on the file.
 
-*-s
+-s
 ```
 $ less -s biomed/
 biomed/ is a directory
@@ -118,4 +122,4 @@ Six large controlled population-based studies of
 non-smoking older adults have investigated the association 
 between body mass index (BMI) and mortality, controlling
 ```
-*The -s command for less will eliminate all consecutive blank lines when the file is printed. This could be useful if you want to minimize the size of the file when you are reading it.
+The -s command for less will eliminate all consecutive blank lines when the file is printed. This could be useful if you want to minimize the size of the file when you are reading it.
