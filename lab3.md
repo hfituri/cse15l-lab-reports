@@ -89,10 +89,27 @@ $ less -E 911report/chapter-1.txt
 INSIDE THE FOUR FLIGHTS
 ```
 ```
+$ less -E -n 911report/chapter-1.txt
+"WE HAVE SOME PLANES"
+
+    Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for 
+an early morning run.
+
+    For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
+
+INSIDE THE FOUR FLIGHTS
+
+Boarding the Flights
+
+    Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's Logan International Airport.
+
+    When he checked in for his flight to Boston, Atta was selected by a computerized prescreening system known as CAPPS (Computer Assisted Passenger Prescreening System), created to identify passengers who should be subject to special security measures. Under security rules in place at the time, the only consequence of Atta's selection by CAPPS was that his checked bags were held off the plane until it was confirmed that he had boarded the aircraft. This did not hinder Atta's plans.
+```
+```
 $ less -E 911report/
 911report/ is a directory
 ```
-The -E command for less exits when the entire file is read. This command can be useful if you just want to proofread a file once or if you were going to just read/skim over a long file.
+The -E command for less exits when the entire file is read. This command can be useful if you just want to proofread a file once or if you were going to just read/skim over a long file. With the use of -n option you can also minimize the number of blank spaces in the file.
 
 *-i
 ```
