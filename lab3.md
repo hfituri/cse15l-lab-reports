@@ -139,6 +139,7 @@ less -i 911report/Chapter-1.txt
     Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the 
 World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.  
 ```
+```
 $ less -i -S 911report/Chapter-1.txt
 "WE HAVE SOME PLANES"
 
@@ -153,8 +154,6 @@ Boarding the Flights
     Boston: American 11 and United 175. Atta and Omari boarded a 6:00 A.M. flight from Portland to Boston's >
 
     When he checked in for his flight to Boston
-```
-
 ```
 The -i command ignores casing when looking at files. This could be good if you were trying to find a file name but you don't know the exact casing on the file. With the -S added to the -i you can also truncate lines instead of wrapping.
 
