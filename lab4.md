@@ -76,7 +76,7 @@ git add L
 ```
 ![Image](./git-add.png)
 
-This step we added the the file that was changed to github.
+In this step, we added the the file that is to be changed in github.
 
 ```
 git commit
@@ -84,7 +84,7 @@ git commit
 ```
 ![Image](./commit.png)
 
-This step we now committed the code that we wanted to github.
+This step we committed the code that we wanted to be change in github.
 
 ```
 i 
