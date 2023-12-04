@@ -53,4 +53,4 @@ This is the now fixed code:
 
 ## Part-2 Reflection
 
-Something I learned in the second half of this class was how to use the jdb debugger from the terminal. It was the first time I used a debugger from the terminal so it was interesting to learn how it worked. I learned how to access the variables from commands as well as stopping threads which I didn't know was possible with debuggers. I also thought that the different shortcuts using VIM was very helpful since it made just going throught files a lot easier.
+Something I learned in the second half of this class was how to use the jdb debugger from the terminal. It was the first time I used a debugger from the terminal so it was interesting to learn how it worked. I learned how to access the variables from commands as well as stopping threads which I didn't know was possible with debuggers. I also thought that the different shortcuts using VIM was very helpful since it made just going through files a lot easier.
