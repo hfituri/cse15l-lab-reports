@@ -6,9 +6,7 @@
 ```
 ![Image](./ssh.png)
 The up arrow went to the previous command and I pressed enter to execute it. Since I had to set up my ssh again it was the command I previously used.
-> 
 
-> 
 ```
 git clone git@github.com:hfituri/lab7.git
 <enter>
